@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>El-FastFood</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="./Service.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<link rel="stylesheet" href="">
+
+
+
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dangrek&family=Fjalla+One&family=Kantumruy+Pro:ital,wght@0,100..700;1,100..700&family=Kdam+Thmor+Pro&family=Preahvihear&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Stack+Sans+Headline:wght@200..700&family=Stack+Sans+Text:wght@200..700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <!-- Header -->
+ <nav class="header navbar fixed-top navbar-expand-lg px-md-3">
+    <div class="container-fluid">
+      <a class="navbar-brand fs-2 fw-medium" href="#" style="color: rgb(255, 255, 255);"><img style="height: 95px; width: 95px; object-fit: cover; " src="./Gemini_Generated_Image_ffl069ffl069ffl0-removebg-preview.png" alt=""><i>El-FastFood</i></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+        aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon " stype=" margin-top: -10px;"></span>
+      </button>
+
+
+
+
+
+
+      <div class="offcanvas offcanvas-start    " tabindex="-1" id="offcanvasNavbar"
+        aria-labelledby="offcanvasNavbarLabel">
+
+
+
+
+        
+
+
+
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel" style="color: white;"><i>El-FastFood</i></h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+
+        
+        <div class="offcanvas-body1 " >
+
+
+          
+   
+          
+
+
+
+          <div class="a1" style="width: 79%;"></div>
+           <form class="d-flex mt-3 gap-2 mt-md-0 align-items-center" role="search">
+            <input id="input-search" style="height: 35px;" class="form-control mt-1" type="search" placeholder="Search"
+              aria-label="Search" />
+            
+
+
+            <!-- <div class=" position-relative">
+              <i style="cursor: pointer; color: rgb(227, 227, 227);" class="bi bi-bag-check-fill fs-3" data-bs-target="#offcanvasScrolling" data-bs-toggle="offcanvas"></i>
+              <div id="cart-count" style="background-color: blue;" class="active-cart">0</div>
+            </div> -->
+            
+          </form>
+         &nbsp;&nbsp;&nbsp;&nbsp;<a  href="/login/login.html"><div style="font-size: 35px; color: rgb(227, 227, 227);" class="login"><i class="fa-solid fa-circle-user"></i></div></a>
+        
+          
+
+    
+  
+        
+
+
+
+      </div>
+
+        <div class="mmm" >
+         
+    
+    
+        <div class="offcanvas-body  ">
+          <ul class="navbar-nav justify-content-center gap-3 flex-grow-1 pe-3 ">
+            <li class="nav-item1">
+              <a class="nav-link fs-5" aria-current="page" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item1">
+              <a class="nav-link fs-5" href="#menu">Menu</a>
+              
+            </li>
+            <li class="nav-item1">
+              <a class="nav-link fs-5" href="./Service.html">Service</a>
+            </li>
+            <li class="nav-item1">
+              <a class="nav-link fs-5" href="./About.html">About</a>
+            </li>
+            <li class="nav-item1">
+              <a  class="nav-link fs-5" href="./contantUs.html">Contact Us</a>
+            </li>
+          </ul>
+       
+        </div>
+      </div>
+    </div>
+  
+        </div>
+
+
+      </div>
+    </div>
+  </nav>
+
+
+<!-- fetch("https://mevannat123.github.io/fastfood2-API/4.json") -->
+
+
+
+
+
+ 
+
+
+
+
+  <!-- menu -->
+
+<nav class="header1 navbar fixed-top navbar-expand-lg px-md-3">
+    <div class="container-fluid">
+    
+      <div class="offcanvas offcanvas-end w-75" tabindex="-1" id="offcanvasNavbar"
+        aria-labelledby="offcanvasNavbarLabel">
+    
+        <div class="offcanvas-body  ">
+          <ul class="navbar-nav justify-content-center gap-3 flex-grow-1 pe-3 ">
+            <li class="navbar-nav">
+              <a class="nav-link fs-5" aria-current="page" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fs-5" href="#menu">Menu</a>
+              
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fs-5" href="./Service.html">Service</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fs-5" href="./About.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a  class="nav-link fs-5" href="./contantUs.html">Contact Us</a>
+            </li>
+          </ul>
+       
+        </div>
+      </div>
+    </div>
+  </nav>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <style>
+
+
+
+/* ===== Hero Section ===== */
+.hero {
+  /* background: url('images/hero-bg.jpg') center/cover no-repeat; */
+  color: white;
+  text-align: center;
+  padding: 10px 20px;
+  background-attachment: fixed;
+}
+
+.hero-content h1 {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+.hero-content p {
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+
+/* ===== About Section ===== */
+.about {
+  padding: 80px 10%;
+}
+
+.about-container {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
+.about-text {
+  flex: 1 1 50%;
+}
+
+.about-text h2 {
+  font-size: 36px;
+  color: #222;
+  margin-bottom: 20px;
+}
+
+.about-text p {
+  line-height: 1.7;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+.about-image {
+  width: 300PX;
+  height: 300PX;
+  border-radius: 50%;
+ 
+}
+
+.about-image img {
+  width: 100%;
+  border-radius: 590px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+/* ===== Our Story ===== */
+.story {
+  text-align: center;
+  padding: 60px 10%;
+  background-color: #f8f8f8;
+}
+
+.story h2 {
+  font-size: 32px;
+  color: #222;
+  margin-bottom: 20px;
+}
+
+.story p {
+  color: #555;
+  line-height: 1.7;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* ===== Mission & Vision ===== */
+.mission {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding: 60px 10%;
+  flex-wrap: wrap;
+}
+
+.mission-box {
+  background: #ffe5b4;
+  padding: 30px;
+  border-radius: 15px;
+  width: 300px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* ===== Why Choose Us ===== */
+.why {
+  text-align: center;
+  padding: 60px 10%;
+}
+
+.why h2 {
+  margin-bottom: 40px;
+}
+
+.why-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.why-item {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+  width: 300px;
+  padding: 20px;
+}
+
+.why-item img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+/* ===== Team Section ===== */
+.team {
+  background: #f8f8f8;
+  padding: 60px 10%;
+  text-align: center;
+}
+
+.team-container {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.team-member {
+  background: white;
+  border-radius: 15px;
+  padding: 20px;
+  width: 250px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.team-member img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+/* ===== Reviews ===== */
+.reviews {
+  padding: 60px 10%;
+  text-align: center;
+}
+
+.reviews-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.review-box {
+  background: #ffb347;
+  color: white;
+  border-radius: 10px;
+  width: 300px;
+  padding: 25px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+/* ===== Footer ===== */
+footer {
+  text-align: center;
+  background: #333;
+  color: white;
+  padding: 20px;
+  margin-top: 60px;
+}
+</style>
+  <!-- ======= Header ======= -->
+ 
+
+  <!-- ======= Intro Section ======= -->
+  <section class="hero" >
+    <div class="hero-content">
+      <h1>About El-FastFood</h1>
+      <p>Fresh Coffee • Delicious Pastries • Cozy Vibes</p>
+    </div>
+  </section>
+
+  <!-- ======= About Section ======= -->
+  <section class="about">
+    <div class="about-container"   ">
+      <div class="about-text">
+        <h2>Welcome to El-FastFood</h2>
+        <p>
+          El-FastFood is a modern coffee & bakery shop established in 2024 with one
+          simple mission — to bring people together through the love of coffee,
+          pastries, and warm smiles.
+        </p>
+        <p>
+          We carefully select high-quality beans, bake our pastries fresh daily,
+          and create an atmosphere where everyone feels at home. Whether you’re
+          here for a quick espresso or to enjoy time with friends, El-FastFood is
+          your perfect destination.
+        </p>
+      </div>
+      <div class="about-image" >
+        <img src="/Gemini_Generated_Image_ffl069ffl069ffl0-removebg-preview.png" alt="About El-FastFood" />
+      </div>
+    </div>
+  </section>
+
+  <!-- ======= Our Story ======= -->
+  <section class="story">
+    <h2>Our Story</h2>
+    <p>
+      It all started with a small dream — to create a space where people could
+      enjoy both great coffee and great company. From a small corner shop,
+      El-FastFood has grown into a beloved café known for its quality drinks,
+      freshly baked goods, and friendly service.
+    </p>
+  </section>
+
+  <!-- ======= Mission & Vision ======= -->
+  <section class="mission">
+    <div class="mission-box">
+      <h3>Our Mission</h3>
+      <p>To serve freshness, quality, and happiness in every cup and bite.</p>
+    </div>
+    <div class="mission-box">
+      <h3>Our Vision</h3>
+      <p>To become the most loved coffee & bakery brand in Cambodia and beyond.</p>
+    </div>
+  </section>
+
+  <!-- ======= Why Choose Us ======= -->
+  <section class="why">
+    <h2>Why Choose El-FastFood?</h2>
+    <div class="why-container">
+      <div class="why-item">
+        <img src="https://dopeaffood.com/wp-content/uploads/2024/05/Subway-1024x576.jpg" alt="">
+        <h3>Fresh Ingredients</h3>
+        <p>We use only the finest and freshest ingredients for all our menu items.</p>
+      </div>
+      <div class="why-item">
+        <img src="data:image/jpeg;base64,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" alt="">
+        <h3>Expert Baristas</h3>
+        <p>Our team is passionate and skilled in creating perfect coffee every time.</p>
+      </div>
+      <div class="why-item">
+        <img src="https://thumbs.dreamstime.com/b/modern-fast-food-restaurant-interior-design-urban-setting-photography-cozy-environment-wide-angle-viewpoint-contemporary-style-354905144.jpg" alt="">
+        <h3>Cozy Atmosphere</h3>
+        <p>Enjoy your drink in a peaceful and stylish environment perfect for everyone.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======= Our Team ======= -->
+  <section class="team">
+    <h2>Meet Our Team</h2>
+    <div class="team-container">
+      <div class="team-member">
+        <img src="https://t3.ftcdn.net/jpg/05/24/58/24/360_F_524582420_X2nDOZZEauYNdaGa3ydFRiHWyvteWJZ6.jpg" alt="Manager">
+        <h4>Sokha</h4>
+        <p>Shop Manager</p>
+      </div>
+      <div class="team-member">
+        <img src="https://sprudge.com/wp-content/uploads/2019/10/035C22EE-F56C-42B4-8A83-99A79B5C9AC5.jpeg" alt="Barista">
+        <h4>Dara</h4>
+        <p>Head Barista</p>
+      </div>
+      <div class="team-member">
+        <img src="https://img.freepik.com/free-photo/front-view-smiley-barista-serving-cups-coffee_23-2148522983.jpg?semt=ais_hybrid&w=740&q=80" alt="Baker">
+        <h4>Sreyleak</h4>
+        <p>Pastry Chef</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======= Reviews ======= -->
+  <section class="reviews">
+    <h2>What Our Customers Say</h2>
+    <div class="reviews-container">
+      <div class="review-box">
+        <p>"The best coffee in town! The staff is super friendly and the pastries are amazing!"</p>
+        <h4>- Chanthy</h4>
+      </div>
+      <div class="review-box">
+        <p>"A perfect place to relax and study. I love the caramel macchiato!"</p>
+        <h4>- Vannak</h4>
+      </div>
+      <div class="review-box">
+        <p>"Always fresh, always delicious. Highly recommended for coffee lovers."</p>
+        <h4>- Nary</h4>
+      </div>
+    </div>
+  </section>
+
+
+
+
+<!-- Footer -->
+<footer id="contact" class="ft text-light pt-5">
+  <div class="container">
+    <div class="row g-4">
+      
+      <!-- About -->
+      <div class="col-12 col-md-4 ft1">
+        <img src="./Gemini_Generated_Image_ffl069ffl069ffl0-removebg-preview.png" alt="">
+        <h4 class="fw-bold"><i>El-FastFood<br><br><p style="font-size: 16px;">OPEN 6:00AM</p><p style="font-size: 16px;">CLOSE 8:00PM</p></i></h4>
+        <!-- <p class=""> 
+          Brewing happiness in every cup ☕.  
+          Fresh coffee, fast delivery, and a cozy experience anytime. 
+        </p>-->
+      </div>
+
+      <!-- Quick Links -->
+      <div class="col-6 col-md-2">
+        <h5 class="fw-bold">Quick Links</h5>
+        <ul class="list-unstyled">
+          <li><a href="/index.html" class="text-light text-decoration-none">Home</a></li>
+          <li><a href="#menu" class="text-light text-decoration-none">Menu</a></li>
+          <li><a href="./Service.html" class="text-light text-decoration-none">Service</a></li>
+          <li><a href="./About.html" class="text-light text-decoration-none">About</a></li>
+          <li><a href="./contantUs.html" class="text-light text-decoration-none">Contact</a></li>
+        </ul>
+      </div>
+
+      <!-- Contact -->
+      <div class="col-6 col-md-3">
+        <h5 class="fw-bold">Contact</h5>
+        <ul class="list-unstyled">
+          <li><i class="bi bi-geo-alt-fill me-2"></i> Phnom Penh, Cambodia</li>
+          <li><i class="bi bi-telephone-fill me-2"></i> +855 97951363</li>
+          <li><i class="bi bi-envelope-fill me-2"></i> EL-Fastfood@gamil.com</li>
+        </ul>
+      </div>
+
+      <!-- Social -->
+      <div class="col-12 col-md-3 so">
+        <h5 class="fw-bold">Follow Us</h5>
+        <div class="d-flex gap-3 fs-4">
+          <a href="#" class="text-light"><i class="bi bi-facebook"></i></a>
+          <a href="#" class="text-light"><i class="bi bi-instagram"></i></a>
+          <!-- <a href="#" class="text-light"><i class="bi bi-twitter-x"></i></a> -->
+          <a href="#" class="text-light"><i class="bi bi-youtube"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Divider -->
+    <hr class="my-4 border-light">
+
+    <!-- Bottom Bar -->
+    <div class="text-center pb-3">
+      <p class="mb-0">&copy; 2025 <i>El-FastFood</i>. All Rights Reserved.</p>
+    </div>
+  </div>
+</footer>
+<!-- Offcanvas Cart Payments -->
+<div class="offcanvas offcanvas-end" data-bs-scroll="true" data-bs-backdrop="false"
+  tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+  <div class="offcanvas-header border-bottom">
+    <h5 class="offcanvas-title fw-bold" id="offcanvasScrollingLabel">
+      <i class="bi bi-cart4"></i> Your Cart
+    </h5>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+
+  <div  class="offcanvas-body d-flex flex-column justify-content-between">
+
+    <!-- Cart Items -->
+    <div id="cart-item" class="cart-items">
+
+      
+
+     
+
+        
+      
+
+    </div>
+
+  </div>
+</div>
+
+</body>
+<!-- <script src="./.js"></script> -->
+<script>
+  
+</script>
+</html>

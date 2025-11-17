@@ -1,0 +1,235 @@
+[
+    {
+        "id": 1,
+        "name": "Espresso",
+        "image": "https://images.unsplash.com/photo-1510591509098-f4fdc6d0ff04?w=400",
+        "price": 3.50,
+        "description": "Rich and bold shot of pure espresso",
+        "category": "Hot Coffee"
+    },
+    {
+        "id": 2,
+        "name": "Cappuccino",
+        "image": "https://images.unsplash.com/photo-1572442388796-11668a67e53d?w=400",
+        "price": 4.50,
+        "description": "Classic Italian coffee with steamed milk and velvety foam",
+        "category": "Hot Coffee"
+    },
+    {
+        "id": 3,
+        "name": "Caffe Latte",
+        "image": "https://images.unsplash.com/photo-1561882468-9110e03e0f78?w=400",
+        "price": 4.75,
+        "description": "Smooth espresso with steamed milk and light foam layer",
+        "category": "Hot Coffee"
+    },
+    {
+        "id": 4,
+        "name": "Americano",
+        "image": "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?w=400",
+        "price": 3.75,
+        "description": "Espresso shots diluted with hot water for a milder taste",
+        "category": "Hot Coffee"
+    },
+    {
+        "id": 5,
+        "name": "Mocha",
+        "image": "https://gatherforbread.com/wp-content/uploads/2014/10/Dark-Chocolate-Mocha-Square.jpg",
+        "price": 5.25,
+        "description": "Espresso with chocolate syrup, steamed milk, and whipped cream",
+        "category": "Hot Coffee"
+    },
+    {
+        "id": 6,
+        "name": "Caramel Macchiato",
+        "image": "https://images.unsplash.com/photo-1599639957043-f3aa5c986398?w=400",
+        "price": 5.50,
+        "description": "Vanilla-flavored latte with caramel drizzle and espresso marks",
+        "category": "Hot Coffee"
+    },
+    {
+        "id": 7,
+        "name": "Flat White",
+        "image": "https://images.unsplash.com/photo-1570968915860-54d5c301fa9f?w=400",
+        "price": 4.50,
+        "description": "Microfoam milk poured over a double shot of espresso",
+        "category": "Hot Coffee"
+    },
+    {
+        "id": 8,
+        "name": "Iced Coffee",
+        "image": "https://images.unsplash.com/photo-1517487881594-2787fef5ebf7?w=400",
+        "price": 4.00,
+        "description": "Chilled coffee served over ice with your choice of milk",
+        "category": "Iced Coffee"
+    },
+    {
+        "id": 9,
+        "name": "Iced Latte",
+        "image": "https://images.unsplash.com/photo-1461023058943-07fcbe16d735?w=400",
+        "price": 4.75,
+        "description": "Espresso and cold milk poured over ice",
+        "category": "Iced Coffee"
+    },
+    {
+        "id": 10,
+        "name": "Cold Brew",
+        "image": "https://images.unsplash.com/photo-1517487881594-2787fef5ebf7?w=400",
+        "price": 4.50,
+        "description": "Smooth cold-steeped coffee, less acidic and naturally sweet",
+        "category": "Iced Coffee"
+    },
+    {
+        "id": 11,
+        "name": "Iced Caramel Macchiato",
+        "image": "https://thehealthfulideas.com/wp-content/uploads/2022/05/Iced-Caramel-Macchiato-SQUARE.jpg",
+        "price": 5.50,
+        "description": "Vanilla syrup, milk, espresso, and caramel served over ice",
+        "category": "Iced Coffee"
+    },
+    {
+        "id": 12,
+        "name": "Iced Mocha",
+        "image": "https://bakingmischief.com/wp-content/uploads/2019/05/iced-mocha-image-square.jpg",
+        "price": 5.25,
+        "description": "Chocolate and espresso with cold milk over ice, topped with whipped cream",
+        "category": "Iced Coffee"
+    },
+    {
+        "id": 13,
+        "name": "Nitro Cold Brew",
+        "image": "https://victorallen.com/cdn/shop/articles/nitro_brew.png?v=1576071582",
+        "price": 5.50,
+        "description": "Cold brew infused with nitrogen for a creamy, smooth texture",
+        "category": "Iced Coffee"
+    },
+   
+    {
+        "id": 15,
+        "name": "Vanilla Bean Frappuccino",
+        "image": "https://images.unsplash.com/photo-1558160074-4d7d8bdf4256?w=400",
+        "price": 5.50,
+        "description": "Creamy vanilla blended with ice and topped with whipped cream",
+        "category": "Blended"
+    },
+    {
+        "id": 16,
+        "name": "Croissant",
+        "image": "https://images.unsplash.com/photo-1555507036-ab1f4038808a?w=400",
+        "price": 3.50,
+        "description": "Buttery, flaky French pastry, baked fresh daily",
+        "category": "Pastries"
+    },
+    {
+        "id": 17,
+        "name": "Chocolate Muffin",
+        "image": "https://images.unsplash.com/photo-1607958996333-41aef7caefaa?w=400",
+        "price": 3.75,
+        "description": "Moist chocolate muffin with chocolate chips",
+        "category": "Pastries"
+    },
+    {
+        "id": 18,
+        "name": "Blueberry Scone",
+        "image": "https://cdn.loveandlemons.com/wp-content/uploads/2024/04/scones.jpg",
+        "price": 3.50,
+        "description": "Traditional scone loaded with fresh blueberries",
+        "category": "Pastries"
+    },
+    {
+        "id": 19,
+        "name": "Cinnamon Roll",
+        "image": "https://images.unsplash.com/photo-1615719413546-198b25453f85?w=400",
+        "price": 4.50,
+        "description": "Warm cinnamon roll with cream cheese frosting",
+        "category": "Pastries"
+    },
+    {
+        "id": 20,
+        "name": "Avocado Toast",
+        "image": "https://images.unsplash.com/photo-1588137378633-dea1336ce1e2?w=400",
+        "price": 7.50,
+        "description": "Smashed avocado on sourdough with cherry tomatoes and seasoning",
+        "category": "Food"
+    },
+    {
+        "id": 21,
+        "name": "Breakfast Sandwich",
+        "image": "https://images.unsplash.com/photo-1481070555726-e2fe8357725c?w=400",
+        "price": 6.50,
+        "description": "Egg, cheese, and bacon on a toasted English muffin",
+        "category": "Food"
+    },
+    {
+        "id": 22,
+        "name": "Matcha Latte",
+        "image": "https://cdn.loveandlemons.com/wp-content/uploads/2023/06/iced-matcha-latte.jpg",
+        "price": 5.25,
+        "description": "Premium Japanese matcha whisked with steamed milk",
+        "category": "Specialty"
+    },
+    {
+        "id": 23,
+        "name": "Chai Latte",
+        "image": "https://bakingmischief.com/wp-content/uploads/2022/10/dirty-chai-latte-image-square.jpg",
+        "price": 4.75,
+        "description": "Spiced black tea with steamed milk and honey",
+        "category": "Specialty"
+    },
+    {
+        "id": 24,
+        "name": "Hot Chocolate",
+        "image": "https://images.unsplash.com/photo-1542990253-0d0f5be5f0ed?w=400",
+        "price": 4.25,
+        "description": "Rich hot chocolate topped with whipped cream and cocoa",
+        "category": "Specialty"
+    },
+    {
+        "id": 25,
+        "name": "Hazelnut Latte",
+        "image": "https://images.unsplash.com/photo-1534778101976-62847782c213?w=400",
+        "price": 5.00,
+        "description": "Espresso with hazelnut syrup and steamed milk",
+        "category": "Hot Coffee"
+    },
+    {
+        "id": 26,
+        "name": "Pumpkin Spice Latte",
+        "image": "https://coffeecopycat.com/wp-content/uploads/2023/10/IcedPumpkinSpiceLatte-1200-x-1200.jpg",
+        "price": 5.50,
+        "description": "Seasonal favorite with pumpkin, cinnamon, and nutmeg flavors",
+        "category": "Specialty"
+    },
+    {
+        "id": 27,
+        "name": "Affogato",
+        "image": "https://images.unsplash.com/photo-1595981267035-7b04ca84a82d?w=400",
+        "price": 5.75,
+        "description": "Vanilla gelato drowned in a shot of hot espresso",
+        "category": "Specialty"
+    },
+    {
+        "id": 28,
+        "name": "Cortado",
+        "image": "https://abeautifulmess.com/wp-content/uploads/2023/07/cortado.jpg",
+        "price": 4.25,
+        "description": "Equal parts espresso and steamed milk for balanced flavor",
+        "category": "Hot Coffee"
+    },
+    {
+        "id": 29,
+        "name": "Turkish Coffee",
+        "image": "https://images.unsplash.com/photo-1610889556528-9a770e32642f?w=400",
+        "price": 4.50,
+        "description": "Traditional unfiltered coffee with rich foam and bold taste",
+        "category": "Specialty"
+    },
+    {
+        "id": 30,
+        "name": "Pour Over Coffee",
+        "image": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=400",
+        "price": 5.00,
+        "description": "Carefully brewed single-origin coffee with complex flavors",
+        "category": "Hot Coffee"
+    }
+]
