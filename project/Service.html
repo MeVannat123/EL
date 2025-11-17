@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>El-FastFood</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="./Service.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<link rel="stylesheet" href="">
+
+
+
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dangrek&family=Fjalla+One&family=Kantumruy+Pro:ital,wght@0,100..700;1,100..700&family=Kdam+Thmor+Pro&family=Preahvihear&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Stack+Sans+Headline:wght@200..700&family=Stack+Sans+Text:wght@200..700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <!-- Header -->
+ <nav class="header navbar fixed-top navbar-expand-lg px-md-3">
+    <div class="container-fluid">
+      <a class="navbar-brand fs-2 fw-medium" href="#" style="color: rgb(255, 255, 255);"><img style="height: 95px; width: 95px; object-fit: cover; " src="./Gemini_Generated_Image_ffl069ffl069ffl0-removebg-preview.png" alt=""><i>El-FastFood</i></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+        aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon " stype=" margin-top: -10px;"></span>
+      </button>
+
+
+
+
+
+
+      <div class="offcanvas offcanvas-start    " tabindex="-1" id="offcanvasNavbar"
+        aria-labelledby="offcanvasNavbarLabel">
+
+
+
+
+        
+
+
+
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel" style="color: white;"><i>El-FastFood</i></h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+
+        
+        <div class="offcanvas-body1 " >
+
+
+          
+   
+          
+
+
+
+          <div class="a1" style="width: 79%;"></div>
+           <form class="d-flex mt-3 gap-2 mt-md-0 align-items-center" role="search">
+            <input id="input-search" style="height: 35px;" class="form-control mt-1" type="search" placeholder="Search"
+              aria-label="Search" />
+            
+
+
+            <!-- <div class=" position-relative">
+              <i style="cursor: pointer; color: rgb(227, 227, 227);" class="bi bi-bag-check-fill fs-3" data-bs-target="#offcanvasScrolling" data-bs-toggle="offcanvas"></i>
+              <div id="cart-count" style="background-color: blue;" class="active-cart">0</div>
+            </div> -->
+            
+          </form>
+         &nbsp;&nbsp;&nbsp;&nbsp;<a  href="/login/login.html"><div style="font-size: 35px; color: rgb(227, 227, 227);" class="login"><i class="fa-solid fa-circle-user"></i></div></a>
+        
+          
+
+    
+  
+        
+
+
+
+      </div>
+
+        <div class="mmm" >
+         
+    
+    
+        <div class="offcanvas-body  ">
+          <ul class="navbar-nav justify-content-center gap-3 flex-grow-1 pe-3 ">
+            <li class="nav-item1">
+              <a class="nav-link fs-5" aria-current="page" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item1">
+              <a class="nav-link fs-5" href="#menu">Menu</a>
+              
+            </li>
+            <li class="nav-item1">
+              <a class="nav-link fs-5" href="./Service.html">Service</a>
+            </li>
+            <li class="nav-item1">
+              <a class="nav-link fs-5" href="./About.html">About</a>
+            </li>
+            <li class="nav-item1">
+              <a  class="nav-link fs-5" href="./contantUs.html">Contact Us</a>
+            </li>
+          </ul>
+       
+        </div>
+      </div>
+    </div>
+  
+        </div>
+
+
+      </div>
+    </div>
+  </nav>
+
+
+<!-- fetch("https://mevannat123.github.io/fastfood2-API/4.json") -->
+
+
+
+
+
+ 
+
+
+
+
+  <!-- menu -->
+
+<nav class="header1 navbar fixed-top navbar-expand-lg px-md-3">
+    <div class="container-fluid">
+    
+      <div class="offcanvas offcanvas-end w-75" tabindex="-1" id="offcanvasNavbar"
+        aria-labelledby="offcanvasNavbarLabel">
+    
+        <div class="offcanvas-body  ">
+          <ul class="navbar-nav justify-content-center gap-3 flex-grow-1 pe-3 ">
+            <li class="navbar-nav">
+              <a class="nav-link fs-5" aria-current="page" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fs-5" href="#menu">Menu</a>
+              
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fs-5" href="#app">Service</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fs-5" href="./About.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a  class="nav-link fs-5" href="./contantUs.html">Contact Us</a>
+            </li>
+          </ul>
+       
+        </div>
+      </div>
+    </div>
+  </nav>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br><br><br>
+
+
+
+
+  <style>/* Reset */
+
+/* Navbar */
+
+/* Service Section */
+.service {
+  text-align: center;
+  padding: 60px 20px;
+  background: #f9f9f9;
+}
+.service h2 {
+  font-size: 2.3rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+.service p {
+  color: #666;
+  margin-bottom: 40px;
+  font-size: 1rem;
+}
+.service-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 25px;
+  max-width: 1100px;
+  margin: auto;
+}
+.service-box {
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: 0.3s;
+}
+.service-box img {
+    object-fit: cover;
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+.service-box h3 {
+    
+  margin: 15px 0 10px;
+  color: #222;
+}
+.service-box p {
+  padding: 0 20px 25px;
+  color: #555;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+.service-box:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+  background-color: #9e9b9b;
+}
+
+/* Footer */
+footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  font-size: 0.9rem;
+}
+</style>
+
+  <!-- Service Section -->
+  <section class="service">
+    <h2>Our Services</h2>
+    <p>We provide quality drinks, food, and excellent customer service to make your day perfect!</p>
+
+    <div class="service-container">
+      <div class="service-box">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7tAFc2hQHZghRSUrftBZlK46zjLOq19jlKQ&s" alt="Coffee Brewing">
+        <h3>Fresh Coffee Brewing</h3>
+        <p>Enjoy freshly brewed coffee made from high-quality beans every single cup.</p>
+      </div>
+
+      <div class="service-box">
+        <img src="https://hogo.sgp1.digitaloceanspaces.com/macaubusiness/wp-content/uploads/2022/05/food-delivery.jpeg" alt="Delivery Service">
+        <h3>Fast Delivery</h3>
+        <p>We deliver your favorite food and drinks quickly and safely to your door.</p>
+      </div>
+
+      <div class="service-box">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSERoEFb3gCYAmVV9-5Grhy-JUUaQvk7PsPMg&s" alt="Professional Barista">
+        <h3>Professional Barista</h3>
+        <p>Our baristas are trained to craft perfect drinks with friendly smiles.</p>
+      </div>
+
+      <div class="service-box">
+        <img src="https://www.restapp.com/wp-content/uploads/2022/01/blog_featured_1.png" alt="Online Ordering">
+        <h3>Online Ordering</h3>
+        <p>Order your favorite menu items online anytime, anywhere with ease.</p>
+      </div>
+
+      <div class="service-box">
+        <img src="https://www.shutterstock.com/image-vector/internet-cafe-vector-illustration-building-600nw-2442585235.jpg" alt="Free WiFi">
+        <h3>Free Wi-Fi & Workspace</h3>
+        <p>Relax and work in our cozy shop with free Wi-Fi and comfortable seating.</p>
+      </div>
+
+      <div class="service-box">
+        <img src="https://visionedgemarketing.com/wp-content/uploads/2007/02/Customer-Loyaly-Program.png" alt="Customer Loyalty">
+        <h3>Customer Loyalty Program</h3>
+        <p>Join our loyalty program to get exclusive rewards, discounts, and surprises!</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <!-- <footer>
+    <p>© 2025 El-FastFood. All Rights Reserved.</p>
+  </footer> -->
+
+
+
+
+<!-- Footer -->
+<footer id="contact" class="ft text-light pt-5">
+  <div class="container">
+    <div class="row g-4">
+      
+      <!-- About -->
+      <div class="col-12 col-md-4 ft1">
+        <img src="./Gemini_Generated_Image_ffl069ffl069ffl0-removebg-preview.png" alt="">
+        <h4 class="fw-bold"><i>El-FastFood<br><br><p style="font-size: 16px;">OPEN 6:00AM</p><p style="font-size: 16px;">CLOSE 8:00PM</p></i></h4>
+        <!-- <p class=""> 
+          Brewing happiness in every cup ☕.  
+          Fresh coffee, fast delivery, and a cozy experience anytime. 
+        </p>-->
+      </div>
+
+      <!-- Quick Links -->
+      <div class="col-6 col-md-2">
+        <h5 class="fw-bold">Quick Links</h5>
+        <ul class="list-unstyled">
+          <li><a href="/index.html" class="text-light text-decoration-none">Home</a></li>
+          <li><a href="#menu" class="text-light text-decoration-none">Menu</a></li>
+          <li><a href="./Service.html" class="text-light text-decoration-none">Service</a></li>
+          <li><a href="./About.html" class="text-light text-decoration-none">About</a></li>
+          <li><a href="./contantUs.html" class="text-light text-decoration-none">Contact</a></li>
+        </ul>
+      </div>
+
+      <!-- Contact -->
+      <div class="col-6 col-md-3">
+        <h5 class="fw-bold">Contact</h5>
+        <ul class="list-unstyled">
+          <li><i class="bi bi-geo-alt-fill me-2"></i> Phnom Penh, Cambodia</li>
+          <li><i class="bi bi-telephone-fill me-2"></i> +855 97951363</li>
+          <li><i class="bi bi-envelope-fill me-2"></i> EL-Fastfood@gamil.com</li>
+        </ul>
+      </div>
+
+      <!-- Social -->
+      <div class="col-12 col-md-3 so">
+        <h5 class="fw-bold follow">Follow Us</h5>
+        <div class="d-flex gap-3 fs-4">
+          <a href="#" class="text-light"><i class="bi bi-facebook"></i></a>
+          <a href="#" class="text-light"><i class="bi bi-instagram"></i></a>
+          <!-- <a href="#" class="text-light"><i class="bi bi-twitter-x"></i></a> -->
+          <a href="#" class="text-light"><i class="bi bi-youtube"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Divider -->
+    <hr class="my-4 border-light">
+
+    <!-- Bottom Bar -->
+    <div class="text-center pb-3">
+      <p class="mb-0">&copy; 2025 <i>El-FastFood</i>. All Rights Reserved.</p>
+    </div>
+  </div>
+</footer>
+<!-- Offcanvas Cart Payments -->
+<div class="offcanvas offcanvas-end" data-bs-scroll="true" data-bs-backdrop="false"
+  tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+  <div class="offcanvas-header border-bottom">
+    <h5 class="offcanvas-title fw-bold" id="offcanvasScrollingLabel">
+      <i class="bi bi-cart4"></i> Your Cart
+    </h5>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+
+  <div  class="offcanvas-body d-flex flex-column justify-content-between">
+
+    <!-- Cart Items -->
+    <div id="cart-item" class="cart-items">
+
+      
+
+     
+
+        
+      
+
+    </div>
+
+  </div>
+</div>
+
+</body>
+<script src="./.js"></script>
+<script>
+  
+</script>
+</html>
